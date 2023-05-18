@@ -2,22 +2,23 @@
   You should be able to call this function with no arguments and see its output in the terminal:
   greetProgrammer();
   => "Hello, programmer!"
-*/
-function greetProgrammer() {
-  console.log("Hello, programmer!");
-}
+  */
 
-/*
-  You should be able to call this function with one argument and see its output in the terminal:
+ function greetProgrammer() {
+   console.log("Hello, programmer!");
+ }
+
+
+  /*You should be able to call this function with one argument and see its output in the terminal:
   greet("Naureen");
   => "Hello, Naureen!"
 */
-function greet(name) {
-  console.log(`Hello, ${name}!`);
-}
+ function greet(name) {
+   console.log(`Hello, ${name}!`);
+ }
 
-/*
-  You should be able to call this function with no arguments and see its output in the terminal:
+
+  /*You should be able to call this function with no arguments and see its output in the terminal:
   greetWithDefault();
   => "Hello, programmer!"
   
